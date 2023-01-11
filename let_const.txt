@@ -1,0 +1,17 @@
+ES2015 version of variale decalration of PI
+
+const PI = 3.14;
+PI = 42 // ERROR
+
+Quiz:
+
+What is the difference between var and let?
+- var is scoped to the function its in, and can be redeclared.
+- let is scoped to the block it is in and cannot be redeclared in that block.
+What is the difference between var and const?
+- const is scoped to the block as opposed to the function and cannot be reassigned there
+What is the difference between let and const?
+- let can be reassigned in its native block, const cannot
+What is hoisting?
+- the compiler "hoists" the variables to the top of the script. when using var, this means that
+  using var before declaration returns undefined as opposed to an error.
